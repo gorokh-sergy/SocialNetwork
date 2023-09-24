@@ -1,0 +1,10 @@
+
+.item {
+    color: greenyellow;
+}
+
+.item img {
+    width: 80px;
+    border: 2px solid goldenrod;
+    border-radius: 50%;
+}
