@@ -1,0 +1,42 @@
+.usersWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userPhoto {
+    width: 100px;
+}
+
+.pageSelector {
+  display: flex;
+    flex-wrap: wrap;
+  align-items: center;
+}
+.pageSelector > div {
+    margin-right: 5px;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1rem;
+}
+.pageSelector > div:hover {
+    background-color: purple;
+    color: yellow;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.selectedPage {
+    font-weight: bold;
+    color: red;
+    border: 2px solid red;
+    border-radius: 100%;
+    background-color: yellow;
+    /*width: 25px;*/
+    /*height: 25px;*/
+
+}
+

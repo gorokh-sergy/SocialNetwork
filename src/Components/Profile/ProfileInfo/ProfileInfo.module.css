@@ -1,0 +1,16 @@
+img {
+    max-width: 100%;
+    max-height: 60vh;
+}
+
+.descriptionBlock {
+    padding: 15px;
+}
+
+.fwBold {
+    font-weight: bold;
+}
+
+.fwNormal {
+    font-weight: normal;
+}

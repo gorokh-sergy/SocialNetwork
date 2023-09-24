@@ -1,0 +1,29 @@
+.nav {
+    padding-top: 1rem;
+    grid-area: nav;
+    background-color: orange;
+}
+
+.item {
+    /*margin-bottom: .3rem;*/
+    display: flex;
+    align-items: center;
+    padding-left: 15%;
+}
+.item a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 5px 20px;
+
+}
+.item a.active{
+    color: green;
+    border-radius: 10px;
+    text-decoration: underline green;
+}
+
+.item a:hover {
+    color: purple;
+    text-decoration: underline crimson;
+}
